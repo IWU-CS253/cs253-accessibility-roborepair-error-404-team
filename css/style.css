@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
+    color: #000000; /* Poor contrast */
     background-color: #ccc;
 	border: solid 5px;
 	margin: 100px;
@@ -21,11 +21,11 @@ h1 {
 }
 
 a {
-    color: #999; /* Poor link contrast */
+    color: #3366ca; /* Poor link contrast */
 }
 
 a:hover {
-    color: #ccc; /* Even lower contrast on hover */
+    color: #000cad; /* Even lower contrast on hover */
 }
 
 form {
@@ -40,7 +40,7 @@ input[type="submit"] {
 
 button {
     cursor: pointer;
-    font-size: 0.8em; /* Small font size */
+    font-size: 1.5em; /* Small font size */
 }
 
 /* Missing focus styles for interactive elements */
