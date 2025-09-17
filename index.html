@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header role = "banner">
 	    <img src="images/banner.png" width="400px">
-        <nav>
+        <nav role = "navigation" aria-label = "Menu"> <! Made by Jillian to group all navigation links by ARIA and give them a label>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Our Catalog</a></li>
@@ -29,7 +29,7 @@
 	<h5>Our Journey</h5>
 	Founded in 2020 by a group of robotics enthusiasts and engineers, RoboCare started as a small workshop dedicated to the restoration and maintenance of classic robot models. We quickly realized that many robot owners faced challenges in finding parts and technical support for their retired mechanical companions. This inspired us to expand our services, and today, we are proud to be the leading provider of spare parts for retired robots.
 	<h3>What We Offer</h3>
-	<img src="images/needparts.png" width="400px">
+	<img src="images/needparts.png" width="400px" aria-hidden = "true"> <! hidden label added by Jillian because image is purley decorational>
 	From gears and circuits to sensors and power units, our extensive catalog includes everything needed to keep your robot in top shape. We source our parts from trusted manufacturers and also specialize in custom-made components, tailored to the unique needs of each robot.
 	<h3>A Community of Robot Enthusiasts</h3>
 	RoboCare is more than just a parts supplier; we are a community. We host workshops, training sessions, and meet-ups for robot enthusiasts to share their passion, knowledge, and stories. Our online forum is a bustling hub where members can seek advice, exchange tips, and connect with fellow robot lovers.
@@ -43,13 +43,13 @@
         <a href="contact.html">Contact</a>
     </div>
 
-    <form>
-        <input type="email" name="email">
-        <input type="submit" value="Subscribe">
+    <form aria-label = "Email Subscription"> <!ARIA labels added to help understand the inputs for email subscription>
+        <input type="email" name="email" aria-label = "Email Input"> 
+        <input type="submit" value="Subscribe" aria-label = "Subscription input treated as button">
     </form>
 
     <footer>
-        <p><img src="images/unscrupulous.png" width="50px">© 2024 Unscrupulous Web Design</p>
+        <p><img src="images/unscrupulous.png" width="50px" aria-hidden = "true">© 2024 Unscrupulous Web Design</p> <! hidden label added b/c of logo (decorational)>
     </footer>
 </body>
 </html>
