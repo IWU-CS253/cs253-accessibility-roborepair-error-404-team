@@ -34,9 +34,20 @@ form {
 }
 
 input[type="submit"] {
+<<<<<<< HEAD
+    background-color: lightgray;
+    color: white;
+=======
     background-color: lightgrey;
     color: black;
+>>>>>>> main
     border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(86, 86, 86);
+    border:white;
+    cursor: pointer;
 }
 
 button {
@@ -47,4 +58,15 @@ button {
 /* Missing focus styles for interactive elements */
 a:focus, button:focus, input:focus {
     /* No focus styles defined */
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-links-container{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
 }
